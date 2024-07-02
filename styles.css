@@ -1,0 +1,116 @@
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem;
+  border-bottom: 2px solid red;
+  border-radius: 10px;
+}
+#goals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section > p {
+  height: 100%;
+  padding: 3rem;
+}
+ol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ol > li {
+  list-style: upper-roman;
+  line-height: 2rem;
+}
+h1 {
+  text-align: center;
+  border-bottom: 2px solid red;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+  #info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+  }
+  section > p {
+    height: 100%;
+    padding: 1.5rem;
+  }
+  ol > li {
+    list-style: upper-roman;
+    line-height: 2rem;
+  }
+  h1 {
+    text-align: center;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+  #info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.7rem;
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+  }
+  section > p {
+    height: 100%;
+    padding: 1rem;
+  }
+  ol > li {
+    list-style: upper-roman;
+    line-height: 2rem;
+  }
+  h1 {
+    text-align: center;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+  }
+}
